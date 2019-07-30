@@ -184,7 +184,7 @@ function($, qlik, vis) {
 						if (isTextCellNotEmpty(e[4])) {
 							dataItem.title = e[4].qText;
 						} else {
-							dataItem.title = "*** Default Tooltip ***" + "<BR/>" + "Name:" + e[1].qText + "<BR/>" + "Group:" + e[3].qText;						
+							dataItem.title = "Name:" + e[1].qText + "<BR/>" + "Group:" + e[3].qText;						
 						}                      
                     }
 
